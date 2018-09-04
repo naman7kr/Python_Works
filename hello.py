@@ -1,3 +1,10 @@
-def fun():
-	print("HELLO")
-fun()
+def solve():
+    t=input()
+    while t:
+        n,k=raw_input().split()
+        n=int(n)
+        k=int(k)
+        print (n*k)
+        t=t-1
+        
+solve()
